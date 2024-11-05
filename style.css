@@ -1,0 +1,34 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: orangered;
+}
+
+/*footer centrer avec un background color */
+footer{
+    display: flex;
+    justify-content: space-between;
+    bottom: 50%;
+    padding: 3%;
+    margin: 1%;
+    background-color: orangered;
+    color: #EEC801;
+    
+}
+
+.sinscrire{
+    display: flex;
+    flex-direction: column;
+
+}
+/*background pour le body */
+body{
+    background-image: url(asset/img/paella.webp);
+}
+
+/*ajout de hauteur*/
+.st{
+    height: 450px;
+}
+

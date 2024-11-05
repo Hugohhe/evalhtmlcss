@@ -1,0 +1,27 @@
+/*texte aligner*/
+h1{
+    text-align: center;
+}
+
+/*background color*/
+body{
+    background-color: grey;
+}
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: orangered;
+}
+
+ul li{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header ul{
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,32 @@
+h1{
+    text-align: center;
+}
+
+body{
+    background-image: url(asset/img/coding-1853305_1280.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: red;
+    background-size: 100%;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: orangered;
+}
+
+@media (min-width:1200px){
+    .header{
+        flex-basis: 25%;
+    }
+
+}
+
+@media (min-width:768px) and (max-width:1199px){
+    .header{
+        flex-basis: 50%;
+    }
+}
+
